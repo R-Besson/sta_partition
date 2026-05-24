@@ -40,7 +40,7 @@ the Yosys tree.
 
 We use "cmake" for that so you need to call the following commands :
 
-cmake -S . -B build -D YOSYS_TREE=<path where corresponding yosys dir is located>; 
+cmake -S . -B build -D YOSYS_TREE=<path_where_yosys_root_dir_is_located>; 
 cmake --build build; cmake --install build"
 
 -----------
