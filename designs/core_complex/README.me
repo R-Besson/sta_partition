@@ -1,0 +1,7 @@
+In order to run this "sta partition" on design 'core_complex' simply do :
+
+yosys -s partition.ys
+
+This command provides to "yosys" executable the "project" where the netlist verilog files resides.
+This one will be read and built in interanl Yosys netlist data-structure. Then it will call the "sta_partition" 
+command afterward.
