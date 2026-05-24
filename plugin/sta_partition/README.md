@@ -43,4 +43,5 @@ We use "cmake" for that so you need to call the following commands :
 cmake -S . -B build -D YOSYS_TREE=<path where corresponding yosys dir is located>; 
 cmake --build build; cmake --install build"
 
+-----------
 
