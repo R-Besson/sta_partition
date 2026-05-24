@@ -1,5 +1,5 @@
-PLUGIN: STA_PARTITION
----------------------
+YOSYS PLUGIN: STA_PARTITION
+---------------------------
 
 GOAL:
 ----
