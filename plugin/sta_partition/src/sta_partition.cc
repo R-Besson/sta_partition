@@ -1742,10 +1742,6 @@ struct StaPartition : public ScriptPass {
      //
      int slice_width = (num_total_endpoints / nb_partitions) + 1;
 
-     if (slice_width == 0) {
-       slice_width++;
-     }
-
      // Put together contiguous endpoints, I noticed way smaller partitions
      // because contiguous endpoints may involve more contiguous logic which is
      // better shared withinh a partition.
