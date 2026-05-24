@@ -1,0 +1,1 @@
+/home/thierry/ZEROASICCORP/synthesis/suites/asic/yosys/share/plugins/sta_partition.so

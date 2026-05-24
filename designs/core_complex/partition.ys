@@ -1,0 +1,4 @@
+plugin -i sta_partition
+
+sta_partition -project project -nb_partitions 16
+
