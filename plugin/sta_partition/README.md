@@ -18,9 +18,9 @@ REQUIREMENTS:
 ------------
 To achieve this project we need to use and install several tools :
 
-    1/ Yosys : this is the synthesis tool and this one will be necessary to represent internally in 
-    memory the netlist data-structure. This data-structure is called RTLIL. We also use its "verilog' 
-    parser to read the verilog netlist and  build the internal netlist in memory.
+    1/ Yosys : this is the synthesis tool and this one will be necessary to represent internally 
+    in memory the netlist data-structure. This data-structure is called RTLIL. We also use its 
+    "verilog" parser to read the verilog netlist and  build the internal netlist in memory.
        --> https://github.com/YosysHQ/yosys
 
     2/ Open Sta: Open STA is the "Static Timing Analysis" tool used to get report timings on the 
@@ -34,8 +34,9 @@ To achieve this project we need to use and install several tools :
 
 BUILDING THE PLUGIN:
 --------------------
-In order to build the "sta_partition" plugin, the best way is to build it related to the Yosys tree that you 
-previously cloned, so that it will be placed in the right plugin directory of the Yosys tree.
+In order to build the "sta_partition" plugin, the best way is to build it related to the Yosys 
+tree that you previously cloned, so that it will be placed in the right plugin directory of 
+the Yosys tree.
 
 We use "cmake" for that so you need to call the following commands :
 
